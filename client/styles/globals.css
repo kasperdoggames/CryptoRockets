@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "galiver-sans";
+  src: url("/galiver-sans/GALS.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "galiver-sans";
+  src: url("/galiver-sans/GALSB.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.loader {
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@tailwind utilities;
