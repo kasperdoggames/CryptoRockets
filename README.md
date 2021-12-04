@@ -31,7 +31,7 @@ NFTSTORAGE_API_KEY=
 A separate client env file `./client/.env.local` is also required with the following values:
 
 ```
-NEXT_PUBLIC_NFTSTORAGE_API_KEY=
+NFTSTORAGE_API_KEY=
 ```
 
 To generate your own NFT Storage API key see [NFT Storage](https://nft.storage/).

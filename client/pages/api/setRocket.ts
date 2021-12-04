@@ -25,9 +25,9 @@ export default async function handler(
   res: NextApiResponse
 ) {
   if (req.method === "POST") {
-    if (process.env.NEXT_PUBLIC_NFTSTORAGE_API_KEY) {
+    if (process.env.NFTSTORAGE_API_KEY) {
       const client = new NFTStorage({
-        token: process.env.NEXT_PUBLIC_NFTSTORAGE_API_KEY,
+        token: process.env.NFTSTORAGE_API_KEY,
       });
 
       const data = await blobPayloadParser(req);
