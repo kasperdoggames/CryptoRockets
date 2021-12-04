@@ -7,6 +7,7 @@ It consists of a web front-end written with Next.js, four smart contracts manage
 
 ## Getting Started
 
+- Using Node.js v14.17.0
 - Clone the repo `git clone https://github.com/kasperdoggames/nfthack.git`
 - Run the install script: `./install.sh`
 - Quick setup and start server and client: `./start_local.sh`
@@ -66,6 +67,18 @@ Add a couple of the Hardhat test addresses to Metamask with private keys. Only o
 `0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266`
 
 `0x70997970c51812dc3a010c7d01b50e0d17dc79c8`
+
+## Technologies Used
+
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.dev/)
+- [Filecoin](https://filecoin.io/)
+- [IPFS](https://ipfs.io/)
+- [Howler.js](https://github.com/goldfire/howler.js)
+- [Hardhat](https://github.com/nomiclabs/hardhat)
+- [NFT.Storage](https://nft.storage/)
 
 ## Architecture
 
