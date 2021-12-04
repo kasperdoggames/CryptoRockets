@@ -9,6 +9,7 @@ It consists of a web front-end written with Next.js, four smart contracts manage
 
 - Using Node.js v14.17.0
 - Clone the repo `git clone https://github.com/kasperdoggames/nfthack.git`
+- Add environment files (see Environment section below)
 - Run the install script: `./install.sh`
 - Quick setup and start server and client: `./start_local.sh`
 - Visit `http://localhost:3000`
@@ -22,7 +23,7 @@ The `start_local.sh` script starts the hardhat node and deploys the contracts an
 
 ## Environment
 
-To run the local deployment withhout issue a `.env` file is required with the following values:
+To run the local deployment without issue a `.env` file is required with the following values:
 
 ```
 NFTSTORAGE_API_KEY=
